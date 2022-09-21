@@ -72,7 +72,7 @@ pingfederate-engine:
     SERVER_PROFILE_PATH: profiles/pingfederate-engine
     PF_ENGINE_PROFILE_SHA: "${PINGFEDERATE_ENGINE_SHA}"
   container:
-    replicaCount: 1
+    replicaCount: 3
     # For PingFederate, CPU can be vertically scaled
     resources:
       requests:
