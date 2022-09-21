@@ -27,3 +27,6 @@ export KUSTOMIZE_FILE="${KUSTOMIZE_DIR}/kustomize"
 ##  Prefixes ENV variable. ENV variable is used for helm release name.
 ##  If used, include trailing slash. (e.g. ENV_PREFIX="myenv-")
 export ENV_PREFIX=""
+export K8S_NAMESPACE=ping-devops-samirgandhi
+## END OF AUTOMATED VARS ##
+
